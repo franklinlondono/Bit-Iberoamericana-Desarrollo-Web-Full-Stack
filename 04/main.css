@@ -6,13 +6,6 @@ body{
 }
 
 
-.contenido-main .iconos-nosotros{
-    min-height: 100vh;
-    position: relative;
-    z-index: 2;
-}
-
-
 .contenedor {
 
     max-width: 1100px;
@@ -165,16 +158,18 @@ body{
 /** imagenes  */
 
 .imagenes {
-    max-width: 150px;
-    max-height: 120px;
-    
-    
+    max-width: 120px;
+    max-height: 100px; 
+     
 }
+/** imagenes  */
+
+
 .nuestroservisio {
     color: #d85701; 
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     font-weight: 300;
 
     
@@ -188,7 +183,26 @@ body{
     text-align: right;
 }
 
-.fa-arrow-right-from-bracket{
-    width: 21.63px;
-    height: 20px;
+.fa-beat{
+    font-size: 20px;
 }
+
+.fa-quote-left{
+    color: #d85701;
+}
+
+.fa-quote-right{
+    color: #d85701;
+}
+
+.testimoniales{
+    text-align:center;
+    
+    padding-top: 50px;
+    padding-bottom:100px;
+    margin-right: 0px;
+}
+.h3{
+    color: #d85701;
+}
+
