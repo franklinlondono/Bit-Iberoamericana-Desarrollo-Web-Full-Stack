@@ -1,0 +1,51 @@
+/* esto es un comentario en CSS */
+  .nav{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    
+  }
+  .nav a {
+
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 19px;
+
+  }
+  .massobrenosotros {
+    display: flex;
+    text-align:justify;
+  }
+  .masnosotros{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+  }
+  .solucionestecnologicas {
+    display: flex;
+    text-align:justify;
+}
+
+.titulos {
+  text-align: center
+
+}
+.iconos{
+    flex-basis: calc(33.3% - 10px);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 200px    
+}
+.iconos-nosotros {
+  display: flex;
+  text-align:justify;
+  padding-top: 50px;
+     
+}
+  h2{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
