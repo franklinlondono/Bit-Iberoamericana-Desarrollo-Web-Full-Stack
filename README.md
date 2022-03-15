@@ -1,2 +1,2 @@
-# Bit-curso-full_Stack
-Actividad 1 creacion de pagina web con css franklin londono
+# bit-iberoamericana-desarrollo-web-full-stack
+aprendiendo desarrollo web - franklin lonoño 
