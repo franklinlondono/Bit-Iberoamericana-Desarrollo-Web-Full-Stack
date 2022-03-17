@@ -1,2 +1,2 @@
-Practica 3 
+Practica 
 pagina web tematica libre 
