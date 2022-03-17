@@ -159,8 +159,8 @@ body{
 /** imagenes  */
 
 .imagenes {
-    max-width: 120px;
-    max-height: 100px; 
+    max-width: 180px;
+    max-height: 150px; 
      
 }
 /** imagenes  */
@@ -207,3 +207,34 @@ body{
     color: #d85701;
 }
 
+.h1{
+text-align: center;
+color: #d85701;
+}
+
+.parrafo{
+    margin-left: 0px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+.fa-check{
+    color: #d85701;
+}
+
+.image img{
+   
+   
+   margin-left: 10px;
+   margin-right: 20px;
+   max-width: 60%;
+   padding-top: 50px;
+   padding-bottom: 50px; 
+}
+
+.bloque{
+    display: flex;
+    justify-content: space-between;    
+}
