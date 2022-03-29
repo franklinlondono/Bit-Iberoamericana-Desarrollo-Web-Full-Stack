@@ -1,0 +1,275 @@
+
+
+
+
+body{
+    
+    font-family: 'Rambla', sans-serif;
+
+    
+}
+
+
+.contenedor {
+
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/** utilidades*/
+.seccion {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.site-header.inicio{
+   
+     
+    
+    height: 20vh;
+    min-width: 300px;
+    margin-bottom: 100px;
+}
+
+
+.contenido-main h2{
+    color: #d85701;    
+      padding-bottom: 20px;
+      font-size: 25px;
+      font-weight: 300;
+      text-align: center;
+      
+      
+      
+
+     }
+
+    
+     
+
+.contenido-main h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: #d85701; 
+
+}
+
+
+
+
+.logo5 {  
+        width: 300px;
+        height: 100px;}
+    
+
+
+.barra {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 60px;
+    align-items: center;
+    
+    
+}
+
+.nav2{
+
+    color: #d85701; 
+    text-decoration: none;
+    font-size: 19px;
+    margin-right: 50px;
+    padding-top: 30px;
+}
+
+
+.nav a {
+    color: #d85701; 
+    text-decoration: none;
+    font-size: 19px;
+    margin-right: 50px;
+    
+   
+    
+}
+.nav a:hover { 
+    color: black;
+}
+.nav a:last-of-type{
+    margin: 0px;
+    
+}
+
+
+
+/** mas sobre nosotros */
+
+.massobrenosotros {
+    display: flex;
+    text-align:justify;
+    padding-bottom: 60px;
+    
+
+}
+.masnosotros{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.titulosnosotros {
+    text-align: center;
+    
+    
+}
+/** soluciones tecnologicas */
+
+.solucionestecnologicas {
+    display: flex;
+    text-align:justify;
+}
+
+.tecnologicassoluciones {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 200px;
+
+}
+
+.tecnologicas {
+    text-align:center;
+
+}
+/** iconos nosotros */
+.iconos-nosotros {
+    display: flex;
+    text-align:justify;
+    
+
+
+
+      
+} 
+
+.iconos {
+    flex-basis: calc(33.3% - 10px);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 200px    
+}
+
+.iconos h4{
+    color: #d85701; 
+    font-weight: 300;
+}
+
+.iconos a{
+    color: #d85701; 
+    text-decoration: none;
+}
+
+
+
+
+/** imagenes  */
+
+.imagenes {
+    max-width: 180px;
+    max-height: 150px; 
+     
+}
+/** imagenes  */
+
+
+.nuestroservisio {
+    color: #d85701; 
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-weight: 300;
+
+    
+}
+.titulos {
+    text-align: center
+  
+}
+
+.derechosReservados{
+    text-align: right;
+}
+
+.fa-beat{
+    font-size: 20px;
+}
+
+.fa-quote-left{
+    color: #d85701;
+}
+
+.fa-quote-right{
+    color: #d85701;
+}
+
+.testimoniales{
+    text-align:center;
+    
+    padding-top: 50px;
+    padding-bottom:100px;
+    margin-right: 0px;
+}
+.h3{
+    color: #d85701;
+}
+
+.h1{
+text-align: center;
+color: #d85701;
+padding-bottom: 80px;
+}
+
+.parrafo{
+    margin-left: 0px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+.fa-check{
+    color: #d85701;
+}
+
+.image img{
+  
+   max-width: 60%;
+  
+}
+
+.bloque{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.p{
+    color: #d85701;
+    padding-bottom: 1px;
+}
+
+
+.contenedorCotice {
+
+    max-width: 1100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 800px;
+
+}
+
+
+.formulario{
+    padding-top: 100px;
+}
