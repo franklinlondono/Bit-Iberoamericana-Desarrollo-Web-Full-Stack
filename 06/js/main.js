@@ -18,6 +18,7 @@ const modal = document.getElementById('modal')
 const success = document.getElementById('success')
 const error = document.getElementById('error')
 const close = document.getElementById('closeBtn')
+const eye = document.getElementById('eye')
 
 const myCredentials = {
     username:null,
@@ -41,7 +42,16 @@ const handlePassword =(event)=>{
 myCredentials.password = event.target.value;
     console.log(myCredentials)
 };
+const handleEye =(event)=>{
+    if(password.type == "password"){
+        password.type = "text"
+        eye.style.opacity=0.8;
+    }else{
+        password.type="password"
+        eye.style.opacity =0.2;
+    }
 
+}
 const handleSubmit =(e)=>{
     e.preventDefault()
     // al enviar validar si las credenciales son correctas
@@ -86,4 +96,6 @@ password.addEventListener('input', handlePassword);
                                 //  esta funcion toca crearla 
         // como es boton no es un evento input, es el evento click       
 submit.addEventListener('click',handleSubmit);
+
+eye.addEventListener('click',handleEye);
 });
