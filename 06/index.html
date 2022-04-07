@@ -10,9 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Rambla&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+
+
+
     <script src="https://kit.fontawesome.com/ccb7e6c16c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
 
@@ -27,27 +27,26 @@
 
     <div class="contenedorGlobal">
         <header class="site-header inicio">
-
+        
             <div class=contenedor>
-
+        
                 <div class="barra shadow-sm p-3 mt-4 mb-5 bg-body rounded">
                     <a href="index.html">
-
+        
                         <img class="logo5" src="img/LogoExpress.Byte.png" alt="Logotipo De Express.Byte"> </a>
                     </a>
-
+        
                     <nav class="navbar navbar-expand-lg navbar-light ">
-
+        
                         <div class="container-fluid">
-
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                                aria-label="Toggle navigation">
+        
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav">
-
+        
                                     <li class="nav-item">
                                         <a class="nav-link" href="Nosotros.html">
                                             <p class="p">Nosotros</p>
@@ -64,379 +63,166 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a id="private" class="nav-link disabled" href="./Nosotros.html"
-                                          >Privado</a
-                                        >
-                                      </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#staticBackdrop">
-                           Iniciar Sesión
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="staticBackdropLabel">IniciarSesión</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form>
-                                            <div class="mb-3">
-                                              <label for="username" class="form-label">Usuario</label>
-                                              <input type="email" class="form-control" id="inUsername" aria-describedby="emailHelp">
-                                              
-                                            </div>
-                                            <div class="mb-3">
-                                              <label for="password" class="form-label">Contraseña</label>
-                                              <input type="password" class="form-control" id="InPassword">
-                                            </div>
+                                        <a id="private" class="nav-link disabled" href="privado.html">
+                                            <p class="p"> Privado</p>
+                                        </a>
+                                    </li>
+                                    <!-- Button trigger modal-->
+                                    <style>
+                                        .btn-secondary{
+                                            background-color:#d85701 ;
                                             
-                                            <button id="submitBtn" type="submit" class="btn btn-primary">Enviar</button>
-                                          </form>
-                                          <p id = "success" class="alert-success mt-2 d-none" role="alert">
-                                              Ya puedes entrar..
-                                          </p>
-                                          <p id = "error" class="alert alert-danger mt-2 d-none" role="alert">
-                                            Usuario y/o contraseña incorrectos
-                                        </p>
+                                        }
+                                       .btn-lg{
+                                        
+                                        width:120px;
+                                        height: 40px;
+                                        font-size: 1rem;
+                                        border-radius: 0.25rem;
+                                        text-align:center;
+                                        
+                                        
+                                        
+                                       }
+                                    </style>
+                                    <button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">
+                                        Iniciar Sesión
+                                    </button>
+        
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="staticBackdropLabel">Iniciar Sesión</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                            <label for="inUsername" class="form-label">Nombre de
+                                                                usuario</label>
+                                                            <input type="email" class="form-control" id="inUsername"
+                                                                aria-describedby="emailHelp" />
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="inPassword" class="form-label">Contraseña</label>
+                                                            <input type="password" class="form-control" id="inPassword" />
+                                                        </div>
+                                                        <button id="submitBtn" type="submit" class="btn btn-secondary">
+                                                            Entrar
+                                                        </button>
+                                                    </form>
+                                                
+                                                      
+                                                     <p id="success" class="alert alert-success mt-2 d-none" role="alert">
+                                                        
+                                                        <img src="./img/check.png" alt="">  Ya puedes entrar al contenido privado
+                                                    
+                                                    </p> 
+                                                    <p id="error" class="alert alert-danger mt-2 d-none" role="alert">
+                                                        <img src="./img/error.png" alt="">Usuario y/o contraseña incorrectos
+                                                    </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button id="closeBtn" type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">
+                                                        Cerrar
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button id="closeBtn" type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Cerrar</button>
-                                    
-                                    </div>
-                                </div>
+                                </ul>
                             </div>
                         </div>
                     </nav>
-
-
+        
                 </div>
             </div>
+        </header> 
+    </div>
+    
+
+
+    
 
 
 
 
 
-        </header>
+
+    
 
 
 
-        <section class="contenedor seccion">
+    <section class="contenedor seccion">
 
 
 
 
-            <main class="contenido-main">
+        <main class="contenido-main">
 
 
-                <style>
-                    .d-sm-block {
-                        background-color: beige;
-                        opacity: 70%;
-                        margin-left: 90px;
-                        margin-right: 90px;
+            <style>
+                .d-sm-block {
+                    background-color: beige;
+                    opacity: 70%;
+                    margin-left: 90px;
+                    margin-right: 90px;
 
-                    }
-                </style>
+                }
+            </style>
 
-                <div id="carouselExampleCaptions"
-                    class="carousel carousel-dark slide mb-5 shadow-sm p-3 mb-5 bg-body rounded "
-                    data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner ">
-                        <div class="carousel-item active ">
-                            <img src="img/1.jpg" class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
-                                alt="Seguridad">
-
-                            <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
-                                <h5>Seguridad</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/2.jpg"
-                                class="rounded mx-auto d-block rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
-                                alt="...">
-                            <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
-                                <h5>A Tiempo</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/3.jpg"
-                                class="rounded mx-auto d-block rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
-                                alt="...">
-                            <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
-                                <h5>Al Mejor Precio</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-                <!--                 
-                  <div class="masnosotros">
-                    <h2 >Más Sobre Nosotros</h2>
-                 </div> -->
-
-                <!-- <div class="massobrenosotros">
-                    <div class="masnosotros">
-                        <h3 class="titulosnosotros"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Seguridad</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt optio cupiditate
-                            accusantium
-                            temporibus
-                            numquam laborum quos voluptates inventore, facere esse doloremque natus vitae eius, soluta
-                            nesciunt quam
-                            voluptatum nobis rem.
-                        </p>
-                    </div>
-
-
-                    <div class="masnosotros">
-                        <h3 class="titulosnosotros"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;El Mejor Precio</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt perspiciatis libero omnis,
-                            quos atque,
-                            nulla corporis adipisci natus eveniet, cupiditate voluptatibus in? Officiis architecto
-                            facere
-                            sit animi
-                            omnis quo! Est.
-                        </p>
-
-                    </div>
-
-
-                    <div class="masnosotros">
-                        <h3 class="titulosnosotros"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;A Tiempo</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa odio, distinctio, inventore,
-                            atque
-                            accusantium
-                            illo vitae expedita laborum blanditiis voluptatem maiores cumque voluptas nesciunt hic at
-                            officia nemo sequi
-                            a!
-                        </p>
-
-                    </div>
-
-                </div> -->
-
-
-                <h2>Soluciones Tecnológicas</h2>
-
-
-
-                <div class="container overflow-hidden mt-5 mb-5 shadow-sm p-3 mb-5 bg-body rounded">
-                    <div class="row gy-5  ">
-                        <div class="col-6">
-
-
-                            <div class="p-3 border bg-light shadow-sm " style="cursor:pointer" ;>
-                                <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Asesoría En El
-                                    Área
-                                    I.T.</h3>
-                                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
-                                    nam,
-                                    dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui
-                                    labore
-                                    alias,
-                                    aliquam deleniti voluptas? Dignissimos.</p>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="p-3 border bg-light shadow-sm" style="cursor:pointer">
-                                <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Migracion De
-                                    Datos
-                                    Segura</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
-                                    nam,
-                                    dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui
-                                    labore
-                                    alias,
-                                    aliquam deleniti voluptas? Dignissimos
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="p-3 border bg-light shadow-sm" style="cursor:pointer">
-                                <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Matto.
-                                    Preventivo Y
-                                    Correctivo</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
-                                    nam,
-                                    dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui
-                                    labore
-                                    alias,
-                                    aliquam deleniti voluptas? Dignissimos.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="p-3 border bg-light shadow-sm" style="cursor:pointer">
-                                <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Alquiler De
-                                    Equipos
-                                    Tecnológicos</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
-                                    nam,
-                                    dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui
-                                    labore
-                                    alias,
-                                    aliquam deleniti voluptas? Dignissimos.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="solucionestecnologicas">
-                    <div class="tec">
-                        <div class="tecnologicassoluciones">
-                            <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Asesoría En El Área
-                                I.T.</h3>
-                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
-                                nam,
-                                dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui labore
-                                alias,
-                                aliquam deleniti voluptas? Dignissimos.</p>
-                        </div>
-                        <div class="tecnologicassoluciones">
-                            <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Migracion De Datos
-                                Segura</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
-                                nam,
-                                dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui labore
-                                alias,
-                                aliquam deleniti voluptas? Dignissimos.
-                            </p>
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="tec2">
-                        <div class="tecnologicassoluciones">
-                            <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Matto. Preventivo Y
-                                Correctivo</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
-                                nam,
-                                dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui labore
-                                alias,
-                                aliquam deleniti voluptas? Dignissimos.
-                            </p>
-                        </div>
-                        <div class="tecnologicassoluciones">
-                            <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Alquiler De Equipos
-                                Tecnológicos</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
-                                nam,
-                                dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui labore
-                                alias,
-                                aliquam deleniti voluptas? Dignissimos.
-                            </p>
-                        </div>
-                    </div>
-                </div> -->
-
-
-
-            </main>
-            <div>
-                <h2 class="nuestroservisio">Viva Nuestro Servicio, Beneficiese Con Nuestras Soluciones</h2>
-
-            </div>
-
-
-            <div id="carouselExampleDark" class="carousel carousel-dark slide shadow-sm p-3 mb-5 bg-body rounded"
-                data-bs-ride="carousel">
+            <div id="carouselExampleCaptions"
+                class="carousel carousel-dark slide mb-5 shadow-sm p-3 mb-5 bg-body rounded " data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
-                        aria-label="Slide 5"></button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="img/alquiler.jpg" class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded "
-                            alt="...">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active ">
+                        <img src="img/1.jpg" class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
+                            alt="Seguridad">
+
                         <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
-                            <h5>Alquiler</h5>
+                            <h5>Seguridad</h5>
                             <p>Some representative placeholder content for the first slide.</p>
-                            <a href="Alquiler.html"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="img/soporteInhouse.jpg"
-                            class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded" alt="...">
-                        <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
-                            <h5>Soporte in house</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                            <a href="Soporte in house.html"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/administracion.jpg"
-                            class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded" alt="...">
-                        <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
-                            <h5>Administración</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                            <a href="Administración.html"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/mantenimiento2.jpg"
-                            class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded" alt="...">
-                        <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
-                            <h5>Mantenimiento</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                            <a href="Mantenimiento.html"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="img/migracion.jpg" class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
+                        <img src="img/2.jpg"
+                            class="rounded mx-auto d-block rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
                             alt="...">
                         <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
-                            <h5>Migración de datos segura</h5>
+                            <h5>A Tiempo</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/3.jpg"
+                            class="rounded mx-auto d-block rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
+                            alt="...">
+                        <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
+                            <h5>Al Mejor Precio</h5>
                             <p>Some representative placeholder content for the third slide.</p>
-                            <a href="Migración de datos segura.html"><i class="fa-solid fa-circle-plus fa-beat">
-                                </i></a>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -445,131 +231,204 @@
 
 
 
+            <h2>Soluciones Tecnológicas</h2>
 
 
 
+            <div class="container overflow-hidden mt-5 mb-5 shadow-sm p-3 mb-5 bg-body rounded">
+                <div class="row gy-5  ">
+                    <div class="col-6">
 
-            <!-- <div class="iconos-nosotros">
-                <div class="iconos">
-                    <img class="imagenes" src="img/alquiler.jpg" alt="logotipo">
 
-                    <h4 class="titulos">Alquiler</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae nam,
-                        dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui labore alias,
-                        aliquam deleniti voluptas? Dignissimos.
-                    </p>
-                    <div class="fa-3x">
-                        <a href="·"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
-
+                        <div class="p-3 border bg-light shadow-sm " style="cursor:pointer" ;>
+                            <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Asesoría En El
+                                Área
+                                I.T.</h3>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
+                                nam,
+                                dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui
+                                labore
+                                alias,
+                                aliquam deleniti voluptas? Dignissimos.</p>
+                        </div>
                     </div>
-
-
-                </div>
-
-                <div class="iconos">
-                    <img class="imagenes" src="img/soporteInhouse.jpg" alt="logotipo">
-
-                    <h4 class="titulos">Soporte in house</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae nam,
-                        dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui labore alias,
-                        aliquam deleniti voluptas? Dignissimos.
-                    </p>
-
-                    <div class="fa-3x">
-                        <a href="#"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
-
+                    <div class="col-6">
+                        <div class="p-3 border bg-light shadow-sm" style="cursor:pointer">
+                            <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Migracion De
+                                Datos
+                                Segura</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
+                                nam,
+                                dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui
+                                labore
+                                alias,
+                                aliquam deleniti voluptas? Dignissimos
+                        </div>
                     </div>
-
-
-                </div>
-
-                <div class="iconos">
-                    <img class="imagenes" src="img/administracion.jpg" alt="logotipo">
-
-                    <h4 class="titulos">Administración</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae nam,
-                        dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui labore alias,
-                        aliquam deleniti voluptas? Dignissimos.
-                    </p>
-                    <div class="fa-3x">
-                        <a href="#"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
-
+                    <div class="col-6">
+                        <div class="p-3 border bg-light shadow-sm" style="cursor:pointer">
+                            <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Matto.
+                                Preventivo Y
+                                Correctivo</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
+                                nam,
+                                dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui
+                                labore
+                                alias,
+                                aliquam deleniti voluptas? Dignissimos.
+                            </p>
+                        </div>
                     </div>
-
-                </div>
-
-                <div class="iconos">
-                    <img class="imagenes" src="img/mantenimiento.jpg" alt="logotipo">
-                    <h4 class="titulos">Mantenimiento</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae nam,
-                        dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui labore alias,
-                        aliquam deleniti voluptas? Dignissimos.
-                    </p>
-
-                    <div class="fa-3x">
-                        <a href="#"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
-
+                    <div class="col-6">
+                        <div class="p-3 border bg-light shadow-sm" style="cursor:pointer">
+                            <h3 class="tecnologicas"><i class="fa-solid fa-arrow-trend-up"></i>&nbsp;Alquiler De
+                                Equipos
+                                Tecnológicos</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae
+                                nam,
+                                dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui
+                                labore
+                                alias,
+                                aliquam deleniti voluptas? Dignissimos.
+                            </p>
+                        </div>
                     </div>
-
-
-
                 </div>
-                <div class="iconos">
-                    <img class="imagenes" src="img/migracion.jpg" alt="logotipo">
-                    <h4 class="titulos">Migración de datos segura</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non laudantium vitae nam,
-                        dolore, quod molestias officia reiciendis pariatur numquam beatae nisi dicta qui labore alias,
-                        aliquam deleniti voluptas? Dignissimos.
-                    </p>
-
-                    <div class="fa-3x">
-                        <a href="#"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
-
-                    </div>
-
-                </div>
-            </div> -->
-        </section>
-
-        <section class="contenedor">
-
-            <div class="testimoniales">
-                <h3 class="h3">Testimoniales</h3>
-
-                <blockquote class="testimoniales"> <i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit, amet
-                    consectetur adipisicing
-                    elit. Minus aliquam alias porro suscipit soluta?
-                    Mollitia deleniti,debitis quidem sint, dicta provident sapiente possimus iure eveniet odio
-                    asperiores,
-                    unde tenetur obcaecati. -Franklin Londoño <i class="fa-solid fa-quote-right"></i></blockquote>
-
-
-
             </div>
 
 
-            <footer>
-                <nav class="nav">
-                    <a href="Nosotros.html">Nosotros</a>
-                    <a href="Cotice Con Nosotros.html">Cotice Con Nosotros</a>
-                    <a href="Mesa De Ayuda.html">Mesa De Ayuda</a>
-                </nav>
 
 
+        </main>
+        <div>
+            <h2 class="nuestroservisio">Viva Nuestro Servicio, Beneficiese Con Nuestras Soluciones</h2>
 
-            </footer>
-            <div class="derechosReservados">
+        </div>
 
-                <p>Todos Los Derechos Reservados 2022 &copy;</p>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide shadow-sm p-3 mb-5 bg-body rounded"
+            data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
             </div>
-        </section>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/alquiler.jpg" class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded "
+                        alt="...">
+                    <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
+                        <h5>Alquiler</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <a href="Alquiler.html"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/soporteInhouse.jpg" class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
+                        alt="...">
+                    <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
+                        <h5>Soporte in house</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        <a href="Soporte in house.html"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/administracion.jpg" class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
+                        alt="...">
+                    <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
+                        <h5>Administración</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <a href="Administración.html"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mantenimiento2.jpg" class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
+                        alt="...">
+                    <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
+                        <h5>Mantenimiento</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <a href="Mantenimiento.html"><i class="fa-solid fa-circle-plus fa-beat"> </i></a>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/migracion.jpg" class="rounded mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"
+                        alt="...">
+                    <div class="carousel-caption d-none d-sm-block shadow-lg p-3 mb-5 bg-body rounded">
+                        <h5>Migración de datos segura</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <a href="Migración de datos segura.html"><i class="fa-solid fa-circle-plus fa-beat">
+                            </i></a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </section>
+
+    <section class="contenedor">
+
+        <div class="testimoniales">
+            <h3 class="h3">Testimoniales</h3>
+
+            <blockquote class="testimoniales"> <i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit, amet
+                consectetur adipisicing
+                elit. Minus aliquam alias porro suscipit soluta?
+                Mollitia deleniti,debitis quidem sint, dicta provident sapiente possimus iure eveniet odio
+                asperiores,
+                unde tenetur obcaecati. -Franklin Londoño <i class="fa-solid fa-quote-right"></i></blockquote>
+
+
+
+        </div>
+
+
+        <footer>
+            <nav class="nav">
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Cotice Con Nosotros.html">Cotice Con Nosotros</a>
+                <a href="Mesa De Ayuda.html">Mesa De Ayuda</a>
+            </nav>
+
+
+
+        </footer>
+        <div class="derechosReservados">
+
+            <p>Todos Los Derechos Reservados 2022 &copy;</p>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+
+        <script src="js/main.js"></script>
+    </section>
 
 
 
 
     </div>
 
-    <script src="js/main.js"></script>
+
 </body>
 
 </html>
