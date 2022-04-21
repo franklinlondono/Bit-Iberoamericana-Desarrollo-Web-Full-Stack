@@ -282,3 +282,14 @@ padding-bottom: 80px;
 }
 
 
+.video{
+    display: flex;
+    justify-content:space-between;
+    justify-content: flex-end;
+}
+
+.eldiv {
+ 
+    transition: all 0.3s ease;
+   
+}
